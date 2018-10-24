@@ -1,6 +1,8 @@
 {
  "address": "1SCNSHDuNxTUy4dKiWuxTimxbWTh1pvGf",
  "description": "Operating system focused on security, privacy, modernity and newbie-friendly. Based on Linux and ZeroNet, with HTML5 interface/apps",
+ "domain": "screensos.bit",
+ "favicon": "icon.ico",
  "files": {
   ".git/COMMIT_EDITMSG": {
    "sha512": "3962dfb7b0198d99a97b8f70e3d947d380dec507e14db772fd60bd5b74ef6505",
