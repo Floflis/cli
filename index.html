@@ -46,126 +46,7 @@
 
 <div class="content">
 
-<article>
-<nopehtml><blockquote style="background:#D6D6D6;border-top:1px solid #E7534F;border-bottom:1px solid #E7534F;border-left:10px solid #E7534F;border-right:10px solid #E7534F;border-radius:20px;margin:0 auto;text-align:center"><div style="margin-top: -7px;margin-left: 5px;width: 80px;height: 80px;clear: left;float: left"><img src="https://plasnerd.github.io/PEHTML/img/warning.svg" width="80px" height="80px"></div><h1 style="font-size:40px;margin-top:-5px;margin-bottom:-1px">Warning</h1><br>Your browser don't supports sites built with PEHTML. This means that this site could not be shown completly in your current browser. <br><img src="https://plasnerd.github.io/PEHTML/img/ib.svg" width="16" height="16"> <a href="../boat">Download the Internet Boat browser</a> to enjoy the whole power of PEHTML and all the features of this site.<br><p>Don't know what is PEHTML? Learn <a href="https://plasnerd.github.io/PEHTML/" target="blank">here</a>.</p></blockquote></nopehtml>
-
-<center>
-<img width="200px" src="Logo.png"/>
-<h1>Floflis OS</h1>
-<h6>Operating system focused on security, privacy, modernity and newbie-friendly.</h6>
-<h5>Based on Linux and ZeroNet, with HTML5 interface/apps.</h5></center>
-<hr/>
-
-<h3>Simple and easy to use, but advanced</h3>
-<p>Floflis combines both worlds: newbie-friendly, and advanced features.</p>
-<p>It haves user levels (newbie, beginer, medium, advanced) and built-in computing courses, offering Open Badges as learning incentive.</p>
-
-<h3>Based on Linux</h3>
-<p>The same Linux/Debian apps you already use, can be imported and used on Floflis. The security of Linux you know, but improved.</p>
-
-<h3>HTML5 UI and apps</h3>
-<p>Simple HTML5 UI, that is automatically updated using ZeroNet. Also, alongside Linux CLI programs and Debian apps/snaps, modern & lightweight HTML5 apps with auto-updates.</p>
-<p>Chrome extensions/apps and Ethereum dApps can also be supported.</p>
-
-<h3>ZeroNet</h3>
-<p>The gentle version of deep web, with P2P distributed sites that supports user login without PHP.</p>
-<p>Open zites on browser using zero:// protocol or use ZeroNet apps. You can also use built-in Namecoin to register .bit domains.</p>
-
-<h3>Easily create your first site or app</h3>
-<p>With Eventlr and FrameworkJS, you can easily create sites and apps with visual event sheets for programming without text-languages knowledge.</p>
-
-<h3>Type faster</h3>
-<p>Floflis haves support and tutorials for Colemak keyboard layout.</p>
-
-<h3>Run Android and Linux apps</h3>
-<p>With Anbox and Wine already set-up, you can run the apps from other OS you already use.</p>
-<p>MacOS/iOS apps could also be supported.</p>
-
-<h3>Best setup for developers</h3>
-<p>Pre-installed Git, Git LFS, NodeJS, Electron, Cordova, Eventlr, FrameworkJS (with VueJS) and other dev tools.</p>
-<p>It also haves a easy-to-use game engine that even a kid can use, that is like Construct 2/Eventlr: using visual event sheets.</p>
-
-<h3>Care about your identy</h3>
-<p>Create your profile, and verify all your works with Keybase/OpenPGP/Bitcoin signatures.</p>
-
-<h3>Care about your works</h3>
-<p>Use Namecoin to register "copyrights".</p>
-
-<h3>Chat with privacy</h3>
-<p>With Riot.im, a Discord alternative</p>
-
-<h3>Quantum-resistant money</h3>
-<p>With Quantum Resistant Ledger, a Bitcoin alternative that is designed to be even more resistant to quantum computing</p>
-
-<h3>Connect to your friends and neighbors</h3>
-<p>With CJDNS/YouNet/ZeroNet, you can access offline sites and send offline messages.</p>
-
-<h3>Open Badges</h3>
-<p>Show to other users on your profile, what are your efforts and achievements when using Floflis and its apps.</p>
-
-<h3>Best OS for videos</h3>
-<p>With Kdenlive editor, OBS Studio (for screenrecording and livestreamming), Video Script Maker and KxoVid P2P video site, give a next level to your video production.</p>
-
-<h3></h3>
-<p></p>
-
-<h3></h3>
-<p></p>
-
-<h3></h3>
-<p></p>
-
-<h3></h3>
-<p></p>
-
-<h3></h3>
-<p></p>
-
-<h3></h3>
-<p></p>
-
-<h3></h3>
-<p></p>
-
-<h2></h2>
-
-<h2>Links:</h2>
-<ul>
-<li><a href="https://riot.im/app/#/room/#floflis:matrix.org" target="_blank">Matrix/Riot chat group</a></li>
-<li><a href="https://www.reddit.com/r/floflis/" target="_blank">Reddit</a></li>
-</ul>
-
-<zeronet><div id="out"></div>
-
-<script>
-
-class Page extends ZeroFrame {
-	setSiteInfo(site_info) {
-		var out = document.getElementById("out")
-		out.innerHTML =
-			"Page address: " + site_info.address +
-			"<br>- Peers: " + site_info.peers +
-			"<br>- Size: " + site_info.settings.size +
-			"<br>- Modified: " + (new Date(site_info.content.modified*1000))
-	}
-
-	onOpenWebsocket() {
-		this.cmd("siteInfo", [], function(site_info) {
-			page.setSiteInfo(site_info)
-		})
-	}
-
-	onRequest(cmd, message) {
-		if (cmd == "setSiteInfo")
-			this.setSiteInfo(message.params)
-		else
-			this.log("Unknown incoming message:", cmd)
-	}
-}
-page = new Page()
-
-</script></zeronet>
-</article>
+<article><nopehtml><blockquote style="background: rgb(214, 214, 214); border-width: 1px 10px; border-style: solid; border-color: rgb(231, 83, 79); border-radius: 20px; margin: 0px auto; text-align: center;"><div style="margin-top: -7px; margin-left: 5px; width: 80px; height: 80px; clear: left; float: left;"><img src="https://plasnerd.github.io/PEHTML/img/warning.svg" width="80px" height="80px"></div><h1 style="font-size: 40px; margin-top: -5px; margin-bottom: -1px;">Warning</h1><br>Your browser don't supports sites built with PEHTML. This means that this site could not be shown completly in your current browser. <br><img src="https://plasnerd.github.io/PEHTML/img/ib.svg" width="16" height="16"> <a href="../boat">Download the Internet Boat browser</a> to enjoy the whole power of PEHTML and all the features of this site.<br><p>Don't know what is PEHTML? Learn <a href="https://plasnerd.github.io/PEHTML/" target="blank">here</a>.</p></blockquote></nopehtml> <center><img width="200px" src="Logo.png"> <h1>Floflis OS</h1> <h6>Operating system focused on security, privacy, modernity and newbie-friendly.</h6> <h5>Based on Linux and ZeroNet, with HTML5 interface/apps.</h5></center> <hr> <div class="md-layout"><div data-v-206b8cac="" class="md-card md-primary md-theme-purple-card md-with-hover md-layout-item md-size-30 md-medium-size-33 md-small-size-50 md-xsmall-size-100"><div data-v-206b8cac="" class="md-ripple"><div data-v-206b8cac="" class="md-card-header"><div data-v-206b8cac="" class="md-title">Simple and easy to use, but advanced</div> <div data-v-206b8cac="" class="md-subhead">Floflis combines both worlds: newbie-friendly, and advanced features.</div></div> <div data-v-206b8cac="" class="md-card-content">It haves user levels (newbie, beginer, medium, advanced) and built-in computing courses, offering Open Badges as learning incentive.</div></div></div> <div data-v-206b8cac="" class="md-card md-primary md-theme-orange-card md-with-hover md-layout-item md-size-30 md-medium-size-33 md-small-size-50 md-xsmall-size-100"><div data-v-206b8cac="" class="md-ripple"><div data-v-206b8cac="" class="md-card-header"><div data-v-206b8cac="" class="md-title">Based on Linux</div> <div data-v-206b8cac="" class="md-subhead">The same Linux/Debian apps you already use, can be imported and used on Floflis.</div></div> <div data-v-206b8cac="" class="md-card-content">The security of Linux you know, but improved.</div></div></div> <div data-v-206b8cac="" class="md-card md-primary md-theme-orange-card md-with-hover md-layout-item md-size-30 md-medium-size-33 md-small-size-50 md-xsmall-size-100"><div data-v-206b8cac="" class="md-ripple"><div data-v-206b8cac="" class="md-card-header"><div data-v-206b8cac="" class="md-title">HTML5 UI and apps</div> <div data-v-206b8cac="" class="md-subhead">Simple HTML5 UI, that is automatically updated using ZeroNet. Also, alongside Linux CLI programs and Debian apps/snaps, modern &amp; lightweight HTML5 apps with auto-updates.</div></div> <div data-v-206b8cac="" class="md-card-content">Chrome extensions/apps and Ethereum dApps can also be supported.</div></div></div> <div data-v-206b8cac="" class="md-card md-primary md-theme-orange-card md-with-hover md-layout-item md-size-30 md-medium-size-33 md-small-size-50 md-xsmall-size-100"><div data-v-206b8cac="" class="md-ripple"><div data-v-206b8cac="" class="md-card-header"><div data-v-206b8cac="" class="md-title">ZeroNet</div> <div data-v-206b8cac="" class="md-subhead">The gentle version of deep web, with P2P distributed sites that supports user login without PHP.</div></div> <div data-v-206b8cac="" class="md-card-content">Open zites on browser using zero:// protocol or use ZeroNet apps. You can also use built-in Namecoin to register .bit domains.</div></div></div> <div data-v-206b8cac="" class="md-card md-primary md-theme-orange-card md-with-hover md-layout-item md-size-30 md-medium-size-33 md-small-size-50 md-xsmall-size-100"><div data-v-206b8cac="" class="md-ripple"><div data-v-206b8cac="" class="md-card-header"><div data-v-206b8cac="" class="md-title">Easily create your first site or app</div> <div data-v-206b8cac="" class="md-subhead">With Eventlr and FrameworkJS, you can easily create sites and apps with visual event sheets for programming without text-languages knowledge.</div></div> <div data-v-206b8cac="" class="md-card-content">Just click a button, and your blank site will appear, and you just need to edit it.</div></div></div><div data-v-206b8cac="" class="md-card md-primary md-theme-orange-card md-with-hover md-layout-item md-size-30 md-medium-size-33 md-small-size-50 md-xsmall-size-100"><div data-v-206b8cac="" class="md-ripple"><div data-v-206b8cac="" class="md-card-header"><div data-v-206b8cac="" class="md-title">Type faster</div> <div data-v-206b8cac="" class="md-subhead">Floflis haves support and tutorials for Colemak keyboard layout.</div></div> <div data-v-206b8cac="" class="md-card-content">Learn how to change your keyboard and use this faster keyboard layout.</div></div></div><div data-v-206b8cac="" class="md-card md-primary md-theme-orange-card md-with-hover md-layout-item md-size-30 md-medium-size-33 md-small-size-50 md-xsmall-size-100"><div data-v-206b8cac="" class="md-ripple"><div data-v-206b8cac="" class="md-card-header"><div data-v-206b8cac="" class="md-title">Run Android and Linux apps</div> <div data-v-206b8cac="" class="md-subhead">With Anbox and Wine already set-up, you can run the apps from other OS you already use.</div></div> <div data-v-206b8cac="" class="md-card-content">MacOS/iOS apps could also be supported.</div></div></div><div data-v-206b8cac="" class="md-card md-primary md-theme-orange-card md-with-hover md-layout-item md-size-30 md-medium-size-33 md-small-size-50 md-xsmall-size-100"><div data-v-206b8cac="" class="md-ripple"><div data-v-206b8cac="" class="md-card-header"><div data-v-206b8cac="" class="md-title">Best setup for developers</div> <div data-v-206b8cac="" class="md-subhead">Pre-installed Git, Git LFS, NodeJS, Electron, Cordova, Eventlr, FrameworkJS (with VueJS) and other dev tools.</div></div> <div data-v-206b8cac="" class="md-card-content">It also haves a easy-to-use game engine that even a kid can use, that is like Construct 2/Eventlr: using visual event sheets.</div></div></div><div data-v-206b8cac="" class="md-card md-primary md-theme-orange-card md-with-hover md-layout-item md-size-30 md-medium-size-33 md-small-size-50 md-xsmall-size-100"><div data-v-206b8cac="" class="md-ripple"><div data-v-206b8cac="" class="md-card-header"><div data-v-206b8cac="" class="md-title">Care about your identy</div> <div data-v-206b8cac="" class="md-subhead">Create your profile, and verify all your works with Keybase/OpenPGP/Bitcoin signatures.</div></div> <div data-v-206b8cac="" class="md-card-content">Share your Floflis profile link, and other users can see it.</div></div></div><div data-v-206b8cac="" class="md-card md-primary md-theme-orange-card md-with-hover md-layout-item md-size-30 md-medium-size-33 md-small-size-50 md-xsmall-size-100"><div data-v-206b8cac="" class="md-ripple"><div data-v-206b8cac="" class="md-card-header"><div data-v-206b8cac="" class="md-title">Care about your works</div> <div data-v-206b8cac="" class="md-subhead">Use Namecoin to register "copyrights".</div></div> <div data-v-206b8cac="" class="md-card-content">Soon: copyright app that uses Namecoin's RPC API and other copyright services.</div></div></div><div data-v-206b8cac="" class="md-card md-primary md-theme-orange-card md-with-hover md-layout-item md-size-30 md-medium-size-33 md-small-size-50 md-xsmall-size-100"><div data-v-206b8cac="" class="md-ripple"><div data-v-206b8cac="" class="md-card-header"><div data-v-206b8cac="" class="md-title">Chat with privacy</div> <div data-v-206b8cac="" class="md-subhead">With Riot.im, a Discord alternative</div></div> <div data-v-206b8cac="" class="md-card-content">Soon: totally decentralized Riot.im on ZeroNet</div></div></div><div data-v-206b8cac="" class="md-card md-primary md-theme-orange-card md-with-hover md-layout-item md-size-30 md-medium-size-33 md-small-size-50 md-xsmall-size-100"><div data-v-206b8cac="" class="md-ripple"><div data-v-206b8cac="" class="md-card-header"><div data-v-206b8cac="" class="md-title">Quantum-resistant money</div> <div data-v-206b8cac="" class="md-subhead">With Quantum Resistant Ledger, a Bitcoin alternative that is designed to be even more resistant to quantum computing</div></div> <div data-v-206b8cac="" class="md-card-content">Soon: quantum resistant user identies and sites/apps</div></div></div><div data-v-206b8cac="" class="md-card md-primary md-theme-orange-card md-with-hover md-layout-item md-size-30 md-medium-size-33 md-small-size-50 md-xsmall-size-100"><div data-v-206b8cac="" class="md-ripple"><div data-v-206b8cac="" class="md-card-header"><div data-v-206b8cac="" class="md-title">Connect to your family, friends and neighbors</div> <div data-v-206b8cac="" class="md-subhead">With CJDNS/YouNet/ZeroNet, you can access offline sites and send offline messages.</div></div> <div data-v-206b8cac="" class="md-card-content">I'm not kidding about offline messages! You don't need to have a Internet service to browse sites, download new content and send messages to your family and other people. Just connect to an online neighbor on the same open WiFi network, using YouNet/CJDNS</div></div></div><div data-v-206b8cac="" class="md-card md-primary md-theme-orange-card md-with-hover md-layout-item md-size-30 md-medium-size-33 md-small-size-50 md-xsmall-size-100"><div data-v-206b8cac="" class="md-ripple"><div data-v-206b8cac="" class="md-card-header"><div data-v-206b8cac="" class="md-title">Open Badges</div> <div data-v-206b8cac="" class="md-subhead">Show to other users on your profile, what are your efforts and achievements when using Floflis and its apps.</div></div> <div data-v-206b8cac="" class="md-card-content">Open Badges is a amazing technology. Other users can verify if the badges are really given by Floflis, and if you really did the requirement to earn it.</div></div></div><div data-v-206b8cac="" class="md-card md-primary md-theme-orange-card md-with-hover md-layout-item md-size-30 md-medium-size-33 md-small-size-50 md-xsmall-size-100"><div data-v-206b8cac="" class="md-ripple"><div data-v-206b8cac="" class="md-card-header"><div data-v-206b8cac="" class="md-title">Best OS for videos</div> <div data-v-206b8cac="" class="md-subhead">Think, project, record, transmit, edit, compile, and distribute/publish.</div></div> <div data-v-206b8cac="" class="md-card-content">With Kdenlive editor, OBS Studio (for screenrecording and livestreamming), Video Script Maker and KxoVid P2P video sharing site, give a next level to your video production.</div></div></div></div> <h2>Links:</h2> <ul><li><a href="https://riot.im/app/#/room/#floflis:matrix.org" target="_blank">Matrix/Riot chat group</a></li> <li><a href="https://www.reddit.com/r/floflis/" target="_blank">Reddit</a></li></ul> <zeronet><div id="out">Page address: 1SCNSHDuNxTUy4dKiWuxTimxbWTh1pvGf<br>- Peers: 8<br>- Size: 3906786<br>- Modified: Wed Oct 24 2018 19:00:50 GMT-0300 (Brasilia Standard Time)</div></zeronet></article>
 
 <comments>
 <h1 id="comments"><i class="material-icons">comment</i> Comments <span class="badge"><a href="https://floflis.github.io#disqus_thread">Loading...</a></span></h1>
@@ -199,7 +80,7 @@ s.setAttribute('data-timestamp', +new Date());
 
 <footer>
 <div class="footer-shadow"></div>
-<center>Last update in 24/10/2018 at 19:16</center>
+<center>Last update in 24/10/2018 at 22:48</center>
 <img src="img/seal-1.png" width="167px" height="94px" style="-webkit-user-drag:element;margin-right: 5px;"> <a href="https://plasnerd.github.io/PEHTML/" target="blank" class="no-opacity"><img src="https://plasnerd.github.io/PEHTML/img/seal-2.png" width="167px" height="94px" title="Built with PEHTML" style="-webkit-user-drag:element"></a>
 <div class="social-icons"><a href="https://github.com/Floflis/" target="blank"><img src="img/social/github.svg" width="40px" height="40px" title="See first the news and improve FrameworkJS in GitHub" alt="GitHub"></a><!-- <a href="https://facebook.com/" target="blank"><img src="img/social/facebook.svg" width="40px" height="40px" title="Like us and receive latest news feed about FrameworkJS progress and other development tools" alt="Facebook"></a>--><!--<a href="https://twitter.com/" target="blank"><img src="img/social/twitter.svg" width="40px" height="40px" title="Follow us and receive latest news feed about FrameworkJS progress and other development tools" alt="Twitter"></a>--><!--<a href="https://.deviantart.com" target="blank"><img src="img/social/deviantart.svg" width="40px" height="40px" title="Follow us and receive latest backgrounds, designs and apps" alt="Deviantart"></a>--></div><div class="social-buttons"></div>
 <copyright><center>(c) 2011-2018 <a href="https://plasmmer.github.io/" target="blank"><small>Plasmmer</small></a>. Thanks to <b>Jesus</b>, our Lord.</center></copyright>
@@ -208,5 +89,58 @@ s.setAttribute('data-timestamp', +new Date());
 </div>
 
 <clearnet><script id="dsq-count-scr" src="//Floflis-os.disqus.com/count.js" async></script></clearnet>
+  <script type="text/javascript" src="plugins/UmbrellaJS/umbrella.min.js"></script>
+  <script type="text/javascript" src="plugins/VueJS/vue.js"></script>
+  <script src="https://unpkg.com/vue-material@beta"></script>
+  <script>
+      Vue.use(VueMaterial.default)
+
+      new Vue({
+        el: '#app'
+      })
+    </script>
+
+<script>
+import Vue from 'vue'
+import VueMaterial from 'vue-material'
+import 'vue-material/dist/vue-material.min.css'
+import 'vue-material/dist/theme/default-dark.css' // This line here
+
+Vue.use(VueMaterial)
+
+export default {
+  name: 'ThemeColors'
+}
+</script>
+
+<style lang="scss" scoped>
+  @import "~vue-material/theme/engine";
+
+  @include md-register-theme("green-card", (
+    primary: md-get-palette-color(green, 500)
+  ));
+
+  @include md-register-theme("black-card", (
+    primary: md-get-palette-color(black, 500)
+  ));
+
+  @include md-register-theme("purple-card", (
+    primary: md-get-palette-color(purple, 500)
+  ));
+
+  @include md-register-theme("orange-card", (
+    primary: md-get-palette-color(orange, 500)
+  ));
+
+  @import "~vue-material/base/theme";
+  @import "~vue-material/components/MdCard/theme";
+
+  .md-card {
+    width: 320px;
+    margin: 4px;
+    display: inline-block;
+    vertical-align: top;
+  }
+</style>
 </body>
 </html>
